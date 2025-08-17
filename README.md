@@ -16,10 +16,10 @@ partir del archivo `Datos_Mod_TelecomX.csv`.\
 - Boxplots, histogramas y distribuciones de variables.\
 - Comparaciones entre clientes activos y cancelados.\
 4. **Entrenamiento de modelos de Machine Learning:**\
-- `LogisticRegression`\
-- `SVC`\
-- `RandomForestClassifier`\
-- `XGBClassifier`\
+- `LogisticRegression`
+- `SVC`
+- `RandomForestClassifier`
+- `XGBClassifier`
 5. **Optimización de hiperparámetros** con **GridSearchCV** y
 **validación cruzada**.\
 6. **Evaluación de desempeño** usando métricas de clasificación:\
