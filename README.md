@@ -37,8 +37,17 @@ Se realiza el análisis de las variables más relevantes para la predicción de 
 - Coeficientes de Logistic Regression y SVC.
 - Visualización con gráficos de barras.
 ## **Conclusiones**
-------------------------------------------------------------------------
+Despues del entrenamiento los modelos tubieron los siguientes resultados: 
 
+| Model	                  | F1-score (Avg) Train | F1-score Test | Variación |
+|-------------------------|----------------------|---------------|-----------|
+| Logistic Regression     | 0.79                 | 0.71	         | -10.1%    |
+| Support Vector Machine  | 0.72 	             | 0.60          | -16.6%    |
+| Random Forest	          | 0.82                 | 0.73          | -10.9%   |
+| XGBoost Classifier      | 0.82 	             | 0.73          | -10.9%   | 
+------------------------------------------------------------------------
+Los modelos Random forest y XGBoost fueron los que entregaron mejores resultados tanto en el 
+entrenamiento como con los datos de prueba 
 ## 📂 Archivos del proyecto
 
 -   **`TelecomX_2.ipynb`** → Notebook principal con todo el flujo de
@@ -66,16 +75,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn xgboos
     carpeta que el notebook.\
 3.  Abre y ejecuta el notebook `TelecomX_2.ipynb` en Jupyter Notebook o
     Google Colab.
-
-------------------------------------------------------------------------
-
-## 📈 Resultados esperados
-
--   Identificación de las variables más relevantes para la cancelación.\
--   Comparación de modelos y selección del mejor estimador.\
--   Guardado de las configuraciones óptimas de cada modelo.\
--   Visualización de métricas y gráficos que facilitan la
-    interpretación.
 
 ------------------------------------------------------------------------
 
