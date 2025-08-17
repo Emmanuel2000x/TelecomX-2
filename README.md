@@ -6,33 +6,37 @@ Este proyecto tiene como objetivo analizar los datos de clientes de
 **TelecomX** y construir modelos predictivos que permitan anticipar la
 **cancelación de servicios** (churn).
 
-El flujo de trabajo incluye: 1. **Carga y exploración de datos** a
-partir del archivo `Datos_Mod_TelecomX.csv`.\
-2. **Limpieza y preparación** de la información:\
+El flujo de trabajo fue el siguente:
+
+## 1. **Carga y exploración de datos**
+A partir del archivo `Datos_Mod_TelecomX.csv` obtenido en el proyecto **TelecomX-Parte1**
+## 2. **Limpieza y preparación** de la información:
 - Eliminación de valores nulos.\
-- Codificación de variables categóricas.\
-- Balanceo de clases con **SMOTE**.\
-3. **Análisis exploratorio de datos (EDA):**\
-- Boxplots, histogramas y distribuciones de variables.\
-- Comparaciones entre clientes activos y cancelados.\
-4. **Entrenamiento de modelos de Machine Learning:**\
+- Codificación de variables categóricas.
+- Balanceo de clases con **SMOTE**.
+## 3. **Análisis exploratorio de datos (EDA):**\
+- Boxplots, histogramas y distribuciones de variables.
+- Comparaciones entre clientes activos y cancelados.
+## 4. **Entrenamiento de modelos de Machine Learning:**
 - `LogisticRegression`
 - `SVC`
 - `RandomForestClassifier`
 - `XGBClassifier`
-5. **Optimización de hiperparámetros** con **GridSearchCV** y
-**validación cruzada**.\
-6. **Evaluación de desempeño** usando métricas de clasificación:\
-- Exactitud (Accuracy)\
-- Precisión (Precision)\
-- Recall\
-- F1-score\
-- AUC-ROC\
-7. **Interpretabilidad del modelo:**\
-- Importancia de variables en Random Forest y XGBoost.\
-- Coeficientes de Logistic Regression y SVC.\
+## 5. **Optimización de hiperparámetros** con **GridSearchCV** y **validación cruzada**.
+Para este proyecto las variables de entrenamiento fueron divididas en 5 grupos y la 
+metrica sobre la que se entrenaron los modelos al haber balanceado  los resgistros fue
+*f1*
+## 6. **Evaluación de desempeño** usando métricas de clasificación:
+- Exactitud (Accuracy)
+- Precisión (Precision)
+- Recall
+- F1-score
+## 7. **Interpretabilidad del modelo:**
+Se realiza el análisis de las variables más relevantes para la predicción de la cancelación:
+- Importancia de variables en Random Forest y XGBoost.
+- Coeficientes de Logistic Regression y SVC.
 - Visualización con gráficos de barras.
-
+## **Conclusiones**
 ------------------------------------------------------------------------
 
 ## 📂 Archivos del proyecto
